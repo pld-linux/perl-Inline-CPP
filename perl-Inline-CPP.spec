@@ -23,12 +23,12 @@ Summary(uk):	Модуль для Perl Inline::CPP
 Summary(zh_CN):	Inline::CPP Perl дё©И
 Name:		perl-Inline-CPP
 Version:	0.24
-Release:	2
+Release:	3
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	perl-Inline-C >= 0.42
+BuildRequires:	perl-Inline-C >= 0.43
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	libstdc++-devel
 BuildArch:	noarch
