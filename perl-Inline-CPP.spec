@@ -25,7 +25,8 @@ Summary(zh_CN):	Inline::CPP Perl Ä£¿é
 Name:		perl-Inline-CPP
 Version:	0.25
 Release:	1
-License:	Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 # Source0-md5:	8774972accb53310442ee458ee0e982d
