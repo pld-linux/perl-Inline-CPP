@@ -1,6 +1,7 @@
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
 %define		pname	CPP
@@ -22,12 +23,12 @@ Summary(sv):	Inline::CPP Perlmodul
 Summary(uk):	Модуль для Perl Inline::CPP
 Summary(zh_CN):	Inline::CPP Perl дё©И
 Name:		perl-Inline-CPP
-Version:	0.24
-Release:	3
+Version:	0.25
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
-# Source0-md5:	7d7b51fef2ecb2082257dcc585621a96
+# Source0-md5:	8774972accb53310442ee458ee0e982d
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Inline-C >= 0.43
 BuildRequires:	rpm-perlprov >= 4.1-13
