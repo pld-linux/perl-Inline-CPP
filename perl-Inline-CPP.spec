@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Inline::CPP
 Summary(it):	Modulo di Perl Inline::CPP
 Summary(ja):	Inline::CPP Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Inline::CPP ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Inline::CPP
+Summary(nb):	Perlmodul Inline::CPP
 Summary(pl):	Modu³ Perla Inline::CPP
 Summary(pt):	Módulo de Perl Inline::CPP
 Summary(pt_BR):	Módulo Perl Inline::CPP
