@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
-%define		pname	CPP
+%define		pnam	CPP
 Summary:	Inline::CPP Perl module
 Summary(cs):	Modul Inline::CPP pro Perl
 Summary(da):	Perlmodul Inline::CPP
@@ -28,7 +28,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8774972accb53310442ee458ee0e982d
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline-C >= 0.43
@@ -45,7 +45,7 @@ Modu³ Inline::CPP - pozwalaj±cy na pisanie procedur i klas Perla w
 C++.
 
 %prep
-%setup -q -n %{pdir}-%{pname}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL </dev/null \
