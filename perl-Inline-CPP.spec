@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
+%define		pdir	Inline
 %define		pname	CPP
 Summary:	Inline::CPP Perl module
 Summary(cs):	Modul Inline::CPP pro Perl
