@@ -1,8 +1,26 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pname	CPP
-Summary:	Inline::CPP perl module
-Summary(pl):	Modu³ perla Inline::CPP
+%define		pdir	Inline
+%define		pname	CPP
+Summary:	Inline::CPP Perl module
+Summary(cs):	Modul Inline::CPP pro Perl
+Summary(da):	Perlmodul Inline::CPP
+Summary(de):	Inline::CPP Perl Modul
+Summary(es):	Módulo de Perl Inline::CPP
+Summary(fr):	Module Perl Inline::CPP
+Summary(it):	Modulo di Perl Inline::CPP
+Summary(ja):	Inline::CPP Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Inline::CPP ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Inline::CPP
+Summary(pl):	Modu³ Perla Inline::CPP
+Summary(pt):	Módulo de Perl Inline::CPP
+Summary(pt_BR):	Módulo Perl Inline::CPP
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::CPP
+Summary(sv):	Inline::CPP Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::CPP
+Summary(zh_CN):	Inline::CPP Perl Ä£¿é
 Name:		perl-Inline-CPP
 Version:	0.24
 Release:	1
@@ -29,6 +47,7 @@ C++.
 %build
 perl Makefile.PL </dev/null
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
