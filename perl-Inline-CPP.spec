@@ -23,13 +23,13 @@ Summary(uk):	Модуль для Perl Inline::CPP
 Summary(zh_CN):	Inline::CPP Perl дё©И
 Name:		perl-Inline-CPP
 Version:	0.24
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Inline-C >= 0.42
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	libstdc++-devel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -45,7 +45,8 @@ C++.
 %setup -q -n %{pdir}-%{pname}-%{version}
 
 %build
-%{__perl} Makefile.PL </dev/null
+%{__perl} Makefile.PL </dev/null \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -61,6 +62,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TESTED
-%{perl_sitelib}/Inline/CPP.pm
-%{perl_sitelib}/Inline/CPP
+%{perl_vendorlib}/Inline/CPP.pm
+%{perl_vendorlib}/Inline/CPP
 %{_mandir}/man3/*
