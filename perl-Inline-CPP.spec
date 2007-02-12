@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	CPP
 Summary:	Inline::CPP Perl module
-Summary(cs):	Modul Inline::CPP pro Perl
-Summary(da):	Perlmodul Inline::CPP
-Summary(de):	Inline::CPP Perl Modul
-Summary(es):	MÛdulo de Perl Inline::CPP
-Summary(fr):	Module Perl Inline::CPP
-Summary(it):	Modulo di Perl Inline::CPP
-Summary(ja):	Inline::CPP Perl •‚•∏•Â°º•Î
-Summary(ko):	Inline::CPP ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Inline::CPP
-Summary(pl):	Modu≥ Perla Inline::CPP
-Summary(pt):	MÛdulo de Perl Inline::CPP
-Summary(pt_BR):	MÛdulo Perl Inline::CPP
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Inline::CPP
-Summary(sv):	Inline::CPP Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Inline::CPP
-Summary(zh_CN):	Inline::CPP Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Inline::CPP pro Perl
+Summary(da.UTF-8):   Perlmodul Inline::CPP
+Summary(de.UTF-8):   Inline::CPP Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Inline::CPP
+Summary(fr.UTF-8):   Module Perl Inline::CPP
+Summary(it.UTF-8):   Modulo di Perl Inline::CPP
+Summary(ja.UTF-8):   Inline::CPP Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Inline::CPP ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Inline::CPP
+Summary(pl.UTF-8):   Modu≈Ç Perla Inline::CPP
+Summary(pt.UTF-8):   M√≥dulo de Perl Inline::CPP
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Inline::CPP
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Inline::CPP
+Summary(sv.UTF-8):   Inline::CPP Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Inline::CPP
+Summary(zh_CN.UTF-8):   Inline::CPP Perl Ê®°Âùó
 Name:		perl-Inline-CPP
 Version:	0.25
 Release:	1
@@ -40,8 +40,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Inline::CPP - Write Perl subroutines and classes in C++.
 
-%description -l pl
-Modu≥ Inline::CPP - pozwalaj±cy na pisanie procedur i klas Perla w
+%description -l pl.UTF-8
+Modu≈Ç Inline::CPP - pozwalajƒÖcy na pisanie procedur i klas Perla w
 C++.
 
 %prep
