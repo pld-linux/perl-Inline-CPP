@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	CPP
 Summary:	Inline::CPP Perl module
-Summary(cs.UTF-8):   Modul Inline::CPP pro Perl
-Summary(da.UTF-8):   Perlmodul Inline::CPP
-Summary(de.UTF-8):   Inline::CPP Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Inline::CPP
-Summary(fr.UTF-8):   Module Perl Inline::CPP
-Summary(it.UTF-8):   Modulo di Perl Inline::CPP
-Summary(ja.UTF-8):   Inline::CPP Perl モジュール
-Summary(ko.UTF-8):   Inline::CPP 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Inline::CPP
-Summary(pl.UTF-8):   Moduł Perla Inline::CPP
-Summary(pt.UTF-8):   Módulo de Perl Inline::CPP
-Summary(pt_BR.UTF-8):   Módulo Perl Inline::CPP
-Summary(ru.UTF-8):   Модуль для Perl Inline::CPP
-Summary(sv.UTF-8):   Inline::CPP Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Inline::CPP
-Summary(zh_CN.UTF-8):   Inline::CPP Perl 模块
+Summary(cs.UTF-8):	Modul Inline::CPP pro Perl
+Summary(da.UTF-8):	Perlmodul Inline::CPP
+Summary(de.UTF-8):	Inline::CPP Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Inline::CPP
+Summary(fr.UTF-8):	Module Perl Inline::CPP
+Summary(it.UTF-8):	Modulo di Perl Inline::CPP
+Summary(ja.UTF-8):	Inline::CPP Perl モジュール
+Summary(ko.UTF-8):	Inline::CPP 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Inline::CPP
+Summary(pl.UTF-8):	Moduł Perla Inline::CPP
+Summary(pt.UTF-8):	Módulo de Perl Inline::CPP
+Summary(pt_BR.UTF-8):	Módulo Perl Inline::CPP
+Summary(ru.UTF-8):	Модуль для Perl Inline::CPP
+Summary(sv.UTF-8):	Inline::CPP Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Inline::CPP
+Summary(zh_CN.UTF-8):	Inline::CPP Perl 模块
 Name:		perl-Inline-CPP
 Version:	0.25
 Release:	1
