@@ -23,13 +23,13 @@ Summary(sv.UTF-8):	Inline::CPP Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Inline::CPP
 Summary(zh_CN.UTF-8):	Inline::CPP Perl 模块
 Name:		perl-Inline-CPP
-Version:	0.33
+Version:	0.34
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1b912d56ddd09c2fcac065223f12fc2f
+# Source0-md5:	365609155c8cbde9aee7307f408929a9
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline-C >= 0.43
 BuildRequires:	rpm-perlprov >= 4.1-13
