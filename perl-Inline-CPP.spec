@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Inline
 %define		pnam	CPP
+%include	/usr/lib/rpm/macros.perl
 Summary:	Inline::CPP Perl module
 Summary(cs.UTF-8):	Modul Inline::CPP pro Perl
 Summary(da.UTF-8):	Perlmodul Inline::CPP
@@ -30,8 +30,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	365609155c8cbde9aee7307f408929a9
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Inline-CPP/
 BuildRequires:	perl-Inline-C >= 0.43
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	libstdc++-devel
 BuildArch:	noarch
