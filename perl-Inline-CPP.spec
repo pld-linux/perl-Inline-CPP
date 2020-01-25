@@ -4,7 +4,6 @@
 
 %define		pdir	Inline
 %define		pnam	CPP
-%include	/usr/lib/rpm/macros.perl
 Summary:	Inline::CPP Perl module
 Summary(cs.UTF-8):	Modul Inline::CPP pro Perl
 Summary(da.UTF-8):	Perlmodul Inline::CPP
